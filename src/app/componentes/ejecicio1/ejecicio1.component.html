@@ -1,0 +1,22 @@
+<label>
+  Edad 1
+  <input type="number" placeholder="Edad uno" [(ngModel)]="edad1" />
+</label>
+<br />
+<label>
+  Edad 2
+  <input type="number" placeholder="Edad dos" [(ngModel)]="edad2" />
+</label>
+<br />
+<label
+  >Promedio
+  <input type="text" placeholder="Promedio" value="{{ promedio }}" />
+</label>
+<br />
+<label>
+  Suma
+  <input type="text" name="" id="" placeholder="Suma" [value]="suma" />
+</label>
+<br /><br />
+<button (click)="calcular()">Calcular</button>
+<button (click)="limpiar()">Limpiar cuadro de textos</button>
